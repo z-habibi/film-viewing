@@ -1,0 +1,38 @@
+*{
+    background-color: #262626;
+    margin: 0;
+    padding: 0;
+}
+
+header * {
+    color: ghostwhite;
+    background-color: rosybrown;
+    padding: 40px 0px 40px 0px;
+    float :right;
+    text-align: center;
+    height:90px;
+    width: 30%;
+}
+nav {
+    color: ghostwhite;
+    background-color: rosybrown;
+    padding: 40px 0px 40px 0px;
+    height: 90px;
+    width: 70%;
+    float: left;
+    display: block;
+}
+nav *{
+    color: ghostwhite;
+    background-color: rosybrown;
+    text-align: center;
+    height:90px;
+    width: 30%;
+    display: inline;
+    padding: 40px 0px 0px 60px;
+}
+.searchbox{
+    height: 10px;
+    /*padding: 0;
+*/
+}
