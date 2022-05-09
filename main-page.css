@@ -43,6 +43,7 @@ nav *{
 }
 #searchdiv{
     background-color: ghostwhite;
+    color: rgba(38, 38, 38, 0.88);
     border-style: solid;
     padding: 8px;
     border-color: gray;
@@ -50,6 +51,7 @@ nav *{
 }
 .searchbox{
     background-color: ghostwhite;
+    color: #262626;
     text-align: center;
     float: inside;
     height: 20px;
