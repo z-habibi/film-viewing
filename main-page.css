@@ -4,7 +4,6 @@
     padding: 0;
 }
 header * {
-    z-index: 0;
     color: ghostwhite;
     background-color: rosybrown;
     float :right;
@@ -14,66 +13,83 @@ header * {
     padding-top: 15px;
 }
 #logo{
-    padding: 0px 100px 0 0;
+    padding: 0 40px 0 0;
     width: 90px;
     height:50px;
 }
 nav {
-    z-index: 1;
     padding-top: 15px;
-    color: ghostwhite;
     background-color: rosybrown;
     height: 70px;
     width: 60%;
     float: left;
-    display: block;
 }
 nav *{
     color: ghostwhite;
     text-decoration: none;
-    background-color: rosybrown;
-    text-align: center;
-    height:90px;
+    background-color: rgba(255, 255, 255, 0);
     display: inline;
-    padding: 25px 30px 20px 30px;
+}
+.navtype1 {
+    background-color: crimson;
+    border-radius: 100px;
+    padding: 10px;
 }
 .navtype2{
-    padding: 10px;
-    text-decoration: none;
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#navtype2div{
+    background-color: rgba(220, 20, 60, 0.56);
+    border-radius: 35px;
+    padding:10px;
 }
 #searchdiv{
     background-color: ghostwhite;
-    color: rgba(38, 38, 38, 0.88);
-    border-style: solid;
+    color: #000000;
+    border-style: none;
     padding: 8px;
-    border-color: gray;
     border-radius: 25px;
 }
 .searchbox{
-    background-color: ghostwhite;
+    background-color: rgba(255, 255, 255, 0);
     color: #262626;
     text-align: center;
-    float: inside;
     height: 20px;
-    width: 20 px;
-    padding: 0;
+    width: 200px;
     border-style: none;
 }
 .searchbutton{
-    background-color: rosybrown;
+    background-color: crimson;
     text-align: center;
     border-radius: 50px;
     border-style: none;
     height: 24px;
-    padding: 0;
-
 }
 .mySlides {display: none;}
 img {vertical-align: middle;}
 .slideshow-container {
+    padding: 2px;
     max-width: 50%;
     position: relative;
     margin: auto;
+}
+.text {
+    color: ghostwhite;
+    font-size: 15px;
+    position: absolute;
+    left: 800px;
+    top:0;
+    height: 100%;
+    width: 300px;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 .dot {
     height: 15px;
@@ -87,10 +103,39 @@ img {vertical-align: middle;}
 .active {background-color: #717171;}
 .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 3s;
 }
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
 }
 @media only screen and (max-width: 300px) {  .text {font-size: 11px} }
+aside{
+    background-color: ghostwhite;
+    color: #262626;
+    width: 300px;
+    height: 70%;
+    text-decoration: #717171;
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    top: 100px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    z-index: 3;
+}
+ aside *{
+    color: crimson;
+     background-color: rgba(255, 255, 255, 0);
+     text-decoration: none;
+     padding: 10px;
+     display: block;
+     float: left;
+     width: 50px;
+ }
+footer{
+     background-color: crimson;
+     width: 1150px;
+     float: right;
+     z-index: 1;
+ }
