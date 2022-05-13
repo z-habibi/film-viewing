@@ -78,10 +78,6 @@ img {vertical-align: middle;}
     color: ghostwhite;
     font-size: 15px;
     position: absolute;
-    left: 800px;
-    top:0;
-    height: 100%;
-    width: 300px;
     text-align: center;
 }
 .numbertext {
@@ -111,6 +107,26 @@ img {vertical-align: middle;}
 }
 @media only screen and (max-width: 300px) {  .text {font-size: 11px} }
 aside{
+    left: 0;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    z-index: 3;
+}
+ #bside{
+     right: 0;
+     border-bottom-left-radius: 90px;
+     border-top-left-radius: 90px;
+     z-index: 3;
+ }
+aside *{
+    float: left;
+    direction: ltr;
+}
+#bside *{
+    float: right;
+    direction: rtl;
+}
+aside , #bside {
     background-color: ghostwhite;
     color: #262626;
     width: 300px;
@@ -118,24 +134,20 @@ aside{
     text-decoration: #717171;
     padding: 30px;
     position: fixed;
-    left: 0;
     top: 100px;
-    border-bottom-right-radius: 90px;
-    border-top-right-radius: 90px;
-    z-index: 3;
 }
- aside *{
-    color: crimson;
-     background-color: rgba(255, 255, 255, 0);
-     text-decoration: none;
-     padding: 10px;
-     display: block;
-     float: left;
-     width: 50px;
- }
-footer{
-     background-color: crimson;
-     width: 1150px;
-     float: right;
-     z-index: 1;
- }
+aside * ,#bside *{
+    color: ghostwhite;
+    display: block;
+    width: 50px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: crimson;
+    margin: 1px;
+    border-radius: 25px;
+}
+aside > p ,#bside > p {
+    color: white;
+    width: 300px;
+    background-color: rosybrown;
+}
