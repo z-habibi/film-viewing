@@ -1,11 +1,11 @@
 *{
-    background-color: #262626;
+    background-color:ghostwhite;
     margin: 0;
     padding: 0;
 }
 header * {
     color: ghostwhite;
-    background-color: rosybrown;
+    background-color: mediumvioletred;
     float :right;
     text-align: center;
     height:70px;
@@ -19,7 +19,7 @@ header * {
 }
 nav {
     padding-top: 15px;
-    background-color: rosybrown;
+    background-color: mediumvioletred;
     height: 70px;
     width: 60%;
     float: left;
@@ -75,13 +75,13 @@ img {vertical-align: middle;}
     margin: auto;
 }
 .text {
-    color: ghostwhite;
+    color: black;
     font-size: 15px;
     position: absolute;
     text-align: center;
 }
 .numbertext {
-    color: #f2f2f2;
+    color: black;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -152,20 +152,23 @@ aside > p ,#bside > p {
     background-color: rosybrown;
 }
 .mainpagediv{
-    height:500px;
+    height:600px;
     padding: 90px;
 }
 
 .mainpagediv * {
     display: inline;
-    background-color: red;
+    background-color: rgba(255, 0, 0, 0);
 }
 .mainpagedivetc {
 
-    padding: 25px 100px 25px 100px;
-    background-color: green;
+    padding: 25px 90px 25px 100px;
+    background-color: rgba(0, 128, 0, 0);
     width: 100px;
     height:100px;
+}
+.mainpagedivetc *{
+    padding: 0;
 }
 .mainpdivfchild{
     height: 500px;
@@ -173,5 +176,13 @@ aside > p ,#bside > p {
     float: right;
 
 }
-#moviediv{background-color: ghostwhite;}
-#documentdiv{background-color: ghostwhite;}
+#moviediv{background-color: mediumvioletred;}
+#seriesdiv{background-color: ghostwhite}
+#documentdiv{background-color: mediumvioletred;}
+.divtitle{
+    padding-bottom: 25px;
+    display: block;
+    color: snow;
+    direction: rtl;
+    font-size: 30px;
+}
