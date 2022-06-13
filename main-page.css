@@ -151,3 +151,27 @@ aside > p ,#bside > p {
     width: 300px;
     background-color: rosybrown;
 }
+.mainpagediv{
+    height:500px;
+    padding: 90px;
+}
+
+.mainpagediv * {
+    display: inline;
+    background-color: red;
+}
+.mainpagedivetc {
+
+    padding: 25px 100px 25px 100px;
+    background-color: green;
+    width: 100px;
+    height:100px;
+}
+.mainpdivfchild{
+    height: 500px;
+    width: 380px;
+    float: right;
+
+}
+#moviediv{background-color: ghostwhite;}
+#documentdiv{background-color: ghostwhite;}
