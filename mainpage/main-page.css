@@ -1,0 +1,193 @@
+*{
+    background-color:ghostwhite;
+    margin: 0;
+    padding: 0;
+}
+header * {
+    color: ghostwhite;
+    background-color: mediumvioletred;
+    float :right;
+    text-align: center;
+    height:70px;
+    width: 40%;
+    padding-top: 15px;
+}
+#logo{
+    padding: 0 40px 0 0;
+    width: 90px;
+    height:50px;
+}
+nav {
+    padding-top: 15px;
+    background-color: mediumvioletred;
+    height: 70px;
+    width: 60%;
+    float: left;
+}
+nav *{
+    color: ghostwhite;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    display: inline;
+}
+.navtype1 {
+    background-color: crimson;
+    border-radius: 100px;
+    padding: 10px;
+}
+.navtype2{
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#navtype2div{
+    background-color: rgba(220, 20, 60, 0.56);
+    border-radius: 35px;
+    padding:10px;
+}
+#searchdiv{
+    background-color: ghostwhite;
+    color: #000000;
+    border-style: none;
+    padding: 8px;
+    border-radius: 25px;
+}
+.searchbox{
+    background-color: rgba(255, 255, 255, 0);
+    color: #262626;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    border-style: none;
+}
+.searchbutton{
+    background-color: crimson;
+    text-align: center;
+    border-radius: 50px;
+    border-style: none;
+    height: 24px;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+.slideshow-container {
+    padding: 2px;
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+}
+.text {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+}
+.numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {background-color: #717171;}
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {  .text {font-size: 11px} }
+aside{
+    left: 0;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px;
+    z-index: 3;
+}
+ #bside{
+     right: 0;
+     border-bottom-left-radius: 90px;
+     border-top-left-radius: 90px;
+     z-index: 3;
+ }
+aside *{
+    float: left;
+    direction: ltr;
+}
+#bside *{
+    float: right;
+    direction: rtl;
+}
+aside , #bside {
+    background-color: ghostwhite;
+    color: #262626;
+    width: 300px;
+    height: 70%;
+    text-decoration: #717171;
+    padding: 30px;
+    position: fixed;
+    top: 100px;
+}
+aside * ,#bside *{
+    color: ghostwhite;
+    display: block;
+    width: 50px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: crimson;
+    margin: 1px;
+    border-radius: 25px;
+}
+aside > p ,#bside > p {
+    color: white;
+    width: 300px;
+    background-color: rosybrown;
+}
+.mainpagediv{
+    height:600px;
+    padding: 90px;
+}
+
+.mainpagediv * {
+    display: inline;
+    background-color: rgba(255, 0, 0, 0);
+}
+.mainpagedivetc {
+
+    padding: 25px 90px 25px 100px;
+    background-color: rgba(0, 128, 0, 0);
+    width: 100px;
+    height:100px;
+}
+.mainpagedivetc *{
+    padding: 0;
+}
+.mainpdivfchild{
+    height: 500px;
+    width: 380px;
+    float: right;
+
+}
+#moviediv{background-color: mediumvioletred;}
+#seriesdiv{background-color: ghostwhite}
+#documentdiv{background-color: mediumvioletred;}
+.divtitle{
+    text-decoration: none;
+    padding-bottom: 25px;
+    display: block;
+    color: snow;
+    direction: rtl;
+    font-size: 30px;
+}
+.divtitle:hover{
+
+    color: crimson;
+}

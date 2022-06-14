@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+img{
+    display: inline;
+    width: 50%;
+    height:100vh;
+}
+form{
+    display: inline;
+    padding: 50px;
+    width: 50%;
+    height: 100vh;
+    box-sizing: border-box;
+    float: right;
+    background-color: ghostwhite;
+}
+form *{
+    direction: rtl;
+    alignment: center;
+    margin: 25px;
+}
+fieldset{
+    background-color: mediumvioletred;
+    height: 550px;
+    border-style: double;
+    padding: 100px;
+    border-color: mediumvioletred;
+}
+.subbut{
+    direction: ltr;
+    float: left;
+    margin: 5px;
+    width: 90px;
+    padding: 10px;
+    border-style: none;
+    background-color: snow;
+    color: violet;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.subbut:hover{
+    color: mediumvioletred;
+    background-color: ghostwhite;
+}
+
+label{
+    direction: rtl;
+    margin: 5px;
+    color: snow;
+}
+
+.inplace{
+    background-color: mistyrose;
+    border-style: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+.inplace:hover{
+     background-color: powderblue;
+ }
+
+::placeholder{
+    color: mediumvioletred;
+    text-align: left;
+    direction: ltr;
+    padding: 5px;
+
+}
