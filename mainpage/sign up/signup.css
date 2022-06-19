@@ -63,7 +63,7 @@ label{
  }
 
 ::placeholder{
-    color: mediumvioletred;
+    color: rgba(199, 21, 133, 0.4);
     text-align: left;
     direction: ltr;
     padding: 5px;
