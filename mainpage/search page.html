@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="search.css" type="text/css">
 </head>
 <body>
-    <header  >
+    <header>
         <a href=""><img src="logo.png" id="logo"  alt="logo"><h1 style="padding: 0">film viewing</h1></a><!-- homepage ink -->
     </header>
     <nav>
@@ -24,11 +24,10 @@
         <div id="navtype2div"><a href="enterance/enterance.html" class="navtype2" >ورود</a> /<!--sign up -->
             <a href="sign%20up/signup.html" class="navtype2">عضویت</a></div><!--sign in -->
     </nav>
-
+    <form>
         <div class="dropdown">
             <button class="dropbtn">filter</button>
             <div class="dropdown-content">
-                <form style="padding: 2vw">
                     <label>YEAR:</label><br><br>
                    <label>max:</label><input type="range" value="2019" name="year" min="1980" max="2022" oninput="this.nextElementSibling.value = this.value" class="yearrange"><output style="color: snow">2020</output><br><br>
                     <label>min:</label><input type="range" value="1999" name="year" min="1980" max="2022" oninput="this.nextElementSibling.value = this.value" class="yearrange"><output style="color: snow">1980</output>
@@ -48,22 +47,34 @@
                         <label>comedy:</label><input type="checkbox" class="gnr" name="genre" value="comedy">
                         <label>si-fi:</label><input type="checkbox" class="gnr" name="genre" value="si-fi">
                         <label>horror:</label><input type="checkbox" class="gnr" name="genre" value="horror">
-                </form>
             </div>
         </div>
-
-    <div class="dropdown2">
-        <button class="dropbtn2">first show:</button>
-        <div class="dropdown-content2">
-            <form>
+        <div class="dropdown2">
+            <button class="dropbtn2">first show:</button>
+            <div class="dropdown-content2">
                 <label> <input type="radio" name="which1st" class="perfer" value="rating">
-                rating</label><br>
+                    rating</label>
                 <label><input type="radio" class="perfer" name="which1st" value="comment">
-                comment</label><br>
+                    comment</label>
                 <label><input type="radio" class="perfer" name="which1st" value="new">
-                new</label>
-            </form>
+                    new</label>
+            </div>
         </div>
-    </div>
+        <input type="submit" id="okBtn" value="تایید" title="تایید">
+    </form>
+        <div id="SResult">
+            <figure><img src="r1" href="#r1"><figcaption></figcaption></figure>
+            <figure><img src="r2"><figcaption></figcaption></figure>
+            <figure><img src="r3"><figcaption></figcaption></figure>
+            <figure><img src="r4"><figcaption></figcaption></figure>
+            <figure><img src="r5"><figcaption></figcaption></figure>
+            <figure><img src="r6"><figcaption></figcaption></figure>
+            <figure><img src="r7"><figcaption></figcaption></figure>
+            <figure><img src="r8"><figcaption></figcaption></figure>
+            <figure><img src="r9"><figcaption></figcaption></figure>
+            <figure><img src="r10"><figcaption></figcaption></figure>
+            <figure><img src="r11"><figcaption></figcaption></figure>
+            <figure><img src="r12"><figcaption></figcaption></figure>
+        </div>
 </body>
 </html>

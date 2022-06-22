@@ -38,6 +38,9 @@ fieldset{
     margin-right:40px;
     background-color: mistyrose;
 }
+.inplace:hover{
+    background-color: palegreen;
+}
 #subbut{
      direction: ltr;
      float: left;
@@ -45,8 +48,11 @@ fieldset{
     width: 90px;
     padding: 10px;
     border-style: none;
-    background-color: mediumvioletred;
+    background-color: palegreen;
     color: ghostwhite;
     border-radius: 50px;
     font-size: 15px;
+}
+#subbut:hover{
+    background-color: green;
 }

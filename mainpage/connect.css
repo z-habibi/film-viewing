@@ -68,15 +68,15 @@ nav *{
 }
 article{
     margin: 200px;
-    background-color:palevioletred;
+    background-color:palegreen;
     padding: 100px;
     border-color: #7b014e;
     border-style: double;
     border-width: 7px;
 }
 p{
-       background-color: palevioletred;
-    color: #7b014e;
+       background-color: rgba(219, 112, 147, 0);
+    color: #448444;
     direction: rtl;
     font-size: 20px;
 }

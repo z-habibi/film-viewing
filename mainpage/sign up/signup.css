@@ -37,12 +37,12 @@ fieldset{
     padding: 10px;
     border-style: none;
     background-color: snow;
-    color: violet;
+    color: palegreen;
     border-radius: 50px;
     font-size: 15px;
 }
 .subbut:hover{
-    color: mediumvioletred;
+    color: green;
     background-color: ghostwhite;
 }
 
@@ -59,7 +59,7 @@ label{
     padding: 7px;
 }
 .inplace:hover{
-     background-color: powderblue;
+     background-color: palegreen;
  }
 
 ::placeholder{

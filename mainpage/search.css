@@ -85,11 +85,13 @@ nav *{
     float: right;
  }
 .dropdown-content {
+    background-color: orangered;
+    box-sizing: border-box;
     width: 73vw;
     float: right;
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    padding: 2vw;
     z-index: 1;
     top:65px;
 }
@@ -106,13 +108,14 @@ nav *{
 }
 .dropdown:hover .dropdown-content{display: block;}
 .dropdown:hover .dropbtn{background-color:mediumvioletred;}
+
 .dropbtn2 {
     background-color: palevioletred;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-    width: 23vw;
+    width: 13vw;
     float: left;
     margin-top: 15px;
 }
@@ -122,7 +125,7 @@ nav *{
     float: right;
 }
 .dropdown-content2 {
-    width: 23vw;
+    width: 13vw;
     float: right;
     display: none;
     position: absolute;
@@ -136,10 +139,58 @@ nav *{
     text-decoration: none;
     display: block;
 }
-.perfer{
-
-}
 .dropdown-content2 input:hover{background-color:orange;}
 .dropdown-content2 label:hover{background-color:orange;}
 .dropdown2:hover .dropdown-content2{display: block;}
 .dropdown2:hover .dropbtn2{background-color:mediumvioletred;}
+#okBtn{
+    background-color: mediumvioletred;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 5vw;
+    float: left;
+    margin-top: 15px;
+    margin-left: 3vw;
+}
+#okBtn:hover {
+    background-color: palevioletred;
+    color: rebeccapurple;
+}
+form{
+    min-height:30vh;
+    box-sizing: border-box;
+
+}
+#SResult{
+    background-color:palegreen;
+    min-height: 70vh;
+    box-sizing: border-box;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    display: block;
+    padding: 150px 5vw 5vw 5vw;
+
+}
+#SResult >figure{
+    background-color: ghostwhite;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 1vw;
+    padding: 1vw;
+}
+#SResult >figure>img {
+    height: 380px;
+    width: 380px;
+    alignment: center;
+}
+#SResult >figure>figcaption {
+    color: mediumvioletred;
+    font-size: 20px;
+}
+
+
+
+
+
