@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: block;
+    padding:10vh 10vw 10vh 10vw;
+    box-sizing: border-box;
+    background-color:ghostwhite;
+}
+section *{
+}
+#poster{
+    float: right;
+    width: 35vw;
+    height: 50vh;
+    border-radius: 50px;
+}
+#info {
+    width: 40vw;
+    height: 50vh;
+    direction: rtl;
+    padding: 15vh 2vw 0 2vw;
+    box-sizing: border-box;
+    color: mediumvioletred;
+    background-color: palegreen;
+    border-radius: 150px;
+    border: mediumvioletred double 5px;
+}
+main{
+    min-height: 30vh;
+    padding: 5vw;
+    box-sizing: border-box;
+    background-color: mediumvioletred;
+}
+main *{
+    direction: rtl;
+    margin: 2.5vw;
+}
+.comment{
+    background-color: ghostwhite;
+    border-radius: 20px;
+    direction: rtl;
+}
+.comment > img {
+    min-height: 90px;
+    max-height: 90px;
+    width: 90px;
+    background-color: mediumvioletred;
+}
