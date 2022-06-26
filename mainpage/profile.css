@@ -1,0 +1,130 @@
+*{
+    background-color:ghostwhite;
+    margin: 0;
+    padding: 0;
+}
+header * {
+    color: ghostwhite;
+    background-color: mediumvioletred;
+    float :right;
+    text-align: center;
+    height:70px;
+    width: 40%;
+    padding-top: 15px;
+}
+#logo{
+    padding: 0 40px 0 0;
+    width: 90px;
+    height:50px;
+}
+nav {
+    padding-top: 15px;
+    background-color: mediumvioletred;
+    height: 70px;
+    width: 60%;
+    float: left;
+}
+nav *{
+    color: ghostwhite;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    display: inline;
+}
+.navtype1 {
+    background-color: orangered;
+    border-radius: 100px;
+    padding: 10px;
+}
+.navtype2{
+    padding: 4px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#navtype2div{
+    background-color: rgba(255, 165, 0, 0.6);
+    border-radius: 35px;
+    padding:10px;
+}
+#searchdiv{
+    background-color: ghostwhite;
+    color: #000000;
+    border-style: none;
+    padding: 8px;
+    border-radius: 25px;
+}
+.searchbox{
+    background-color: rgba(255, 255, 255, 0);
+    color: #262626;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    border-style: none;
+}
+.searchbutton{
+    background-color: orangered;
+    text-align: center;
+    border-radius: 50px;
+    border-style: none;
+    height: 24px;
+}
+#profilepic{
+    background-color: mediumvioletred;
+    display: inline-block;
+    float: right;
+    height: 20vw;
+    width: 20vw;
+    box-sizing: border-box;
+    padding: 2vw;
+
+}
+#profileinfo1 {
+    direction: rtl;
+    display:block;
+    width: 80vw;
+    min-height: 20vw;
+    box-sizing: border-box;
+    padding: 3vw 3vw 2vw 3vw;
+    background-color: mediumvioletred;
+}
+#profileinfo1 *{
+    background-color: mediumvioletred;
+    margin: 5px;
+    font-size: 25px;
+    color: snow;
+}
+#profileinfo2 {
+    display: block;
+    background-color: mediumvioletred;
+    direction: rtl;
+    padding: 100px;
+    border-bottom-right-radius:100px;
+    border-bottom-left-radius: 100px;
+}
+#profileinfo2 *{
+    background-color: mediumvioletred;
+    margin: 50px;
+    font-size: 25px;
+    color: snow;
+}
+#plists {
+    width: 100%;
+    direction: rtl;
+    height: 30vw;
+}
+.clientbox {
+    display: inline-block;
+    direction: rtl;
+    width: 20vw;
+    height: 20vw;
+    margin: 10vh 2.5vw 2.5vh 2vw;
+    background-color:mediumvioletred;
+    border-radius: 50px;
+}
+.clientbox *{
+    background-color: mediumvioletred;
+    color: snow;
+    box-sizing: border-box;
+    margin: 2vw 2vw 0 2vw;
+
+
+
+}
