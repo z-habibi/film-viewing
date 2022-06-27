@@ -173,21 +173,22 @@ form{
     padding: 150px 5vw 5vw 5vw;
 
 }
-#SResult >figure{
+#SResult >a{
     background-color: ghostwhite;
     box-sizing: border-box;
     display: inline-block;
     margin: 1vw;
     padding: 1vw;
 }
-#SResult >figure>img {
+#SResult >a>img {
     height: 380px;
     width: 380px;
     alignment: center;
 }
-#SResult >figure>figcaption {
+#SResult >a>p {
     color: mediumvioletred;
     font-size: 20px;
+    text-align: center;
 }
 
 

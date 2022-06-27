@@ -107,51 +107,6 @@ img {vertical-align: middle;}
     to {opacity: 1}
 }
 @media only screen and (max-width: 300px) {  .text {font-size: 11px} }
-aside{
-    left: 0;
-    border-bottom-right-radius: 90px;
-    border-top-right-radius: 90px;
-    z-index: 3;
-}
- #bside{
-     right: 0;
-     border-bottom-left-radius: 90px;
-     border-top-left-radius: 90px;
-     z-index: 3;
- }
-aside *{
-    float: left;
-    direction: ltr;
-}
-#bside *{
-    float: right;
-    direction: rtl;
-}
-aside , #bside {
-    background-color: ghostwhite;
-    color: #262626;
-    width: 300px;
-    height: 70%;
-    text-decoration: #717171;
-    padding: 30px;
-    position: fixed;
-    top: 100px;
-}
-aside * ,#bside *{
-    color: ghostwhite;
-    display: block;
-    width: 50px;
-    padding: 5px;
-    text-decoration: none;
-    background-color: crimson;
-    margin: 1px;
-    border-radius: 25px;
-}
-aside > p ,#bside > p {
-    color: white;
-    width: 300px;
-    background-color: rosybrown;
-}
 .mainpagediv{
     height:600px;
     padding: 90px;
@@ -159,12 +114,11 @@ aside > p ,#bside > p {
 
 .mainpagediv * {
     display: inline;
-    background-color: rgba(255, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 }
 .mainpagedivetc {
-
-    padding: 25px 90px 25px 100px;
-    background-color: rgba(0, 128, 0, 0);
+    margin: 25px 90px 25px 100px;
+    background-color: palegreen;
     width: 100px;
     height:100px;
 }
@@ -172,10 +126,10 @@ aside > p ,#bside > p {
     padding: 0;
 }
 .mainpdivfchild{
+    background-color: palegreen;
     height: 500px;
     width: 380px;
     float: right;
-
 }
 #moviediv{background-color: mediumvioletred;}
 #seriesdiv{background-color: ghostwhite}
@@ -184,13 +138,12 @@ aside > p ,#bside > p {
     text-decoration: none;
     padding-bottom: 25px;
     display: block;
-    color: snow;
+    color: orangered;
     direction: rtl;
     font-size: 30px;
 }
 .divtitle:hover{
-
-    color: crimson;
+    color: orange;
 }
 footer{
     background-color: palegreen;
